@@ -1,0 +1,167 @@
+
+/* Hero Photo & Logo */
+    .hero-image{
+
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        flex-direction: column;
+        text-align: center;
+        width: auto;
+        height: 100vh;
+        overflow: hidden;
+        background-size: cover;
+        background-position: center;
+        background-image: url(logowithphoto.svg);  
+        
+    }
+
+
+
+
+
+    main {
+        background-color: #CDC6B5;
+        display: flex;
+        font-family: 'Saira Condensed';
+        letter-spacing: 2px;
+        justify-content: center;
+        padding-bottom: 200px;
+  
+}
+
+    h1 {
+        font-size: 40px;
+        letter-spacing: 5px;
+        font-variant: small-caps;
+        color: #404A55;
+        text-align: center;
+    
+
+}
+
+
+    .video { 
+        display: block; 
+        width: auto; 
+        margin: 0 auto; 
+}  
+    
+    main .container{
+        margin: 0 10%;
+        display: flex;
+        justify-content: space-between;
+    
+}
+
+
+
+
+
+
+    .topnav{
+        background-color: #CDC6B5;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    
+}
+
+    .topnav a {
+        float: right;
+        color: #404A55;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: 'Saira Condensed';
+        font-size: 22px;
+        letter-spacing: 3px;
+    
+    
+
+}
+
+    .topnav a:hover {
+    background-color: #CDC6B5;
+    color: white;  
+
+}
+
+
+    .topnav a.active {
+        background-color: #404A55;
+        Color: #CDC6B5;
+
+}
+
+    footer i{
+        margin: 3px;
+}
+
+
+    footer {
+        background-color: #404A55;
+    
+
+
+}
+
+
+
+    footer .container {
+        margin: 0 10%;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 40px;
+        padding-top: 40px;
+}
+
+/*the contact form */
+
+    footer .contactForm {
+        border-radius: 20px;
+        width: 20%;
+        position: relative;
+        padding:25px;
+        left: 0%;
+        text-align: left;
+        background-color: #264657;
+        border-top-left-radius: 10px;
+
+    
+  }
+
+/*styling the button on the contact form*/
+
+  footer .btn {
+    background-color: #CDC6B5;
+    letter-spacing: 1px;
+    font-size: 15px;
+    border-radius:10px;
+    padding:7px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+
+
+/* styling of the social media icons*/
+    footer .social {
+        position: relative;
+        right: 0%;
+        color: #CDC6B5;
+        font-size: 30px;
+        display: block;
+        align-self: flex-end;
+        text-align: end;
+}
+
+    footer i{
+        margin: 3px;
+}
+
+        
+    
+
+    
